@@ -236,6 +236,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  color: lighten($text-color, 20%);
 
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.625);
@@ -247,6 +248,7 @@
 
   h2 {
     @include relative-font-size(1.75);
+    color: tomato;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
@@ -255,6 +257,7 @@
 
   h3 {
     @include relative-font-size(1.375);
+    color: lighten($text-color, 20%);
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.625);
@@ -263,6 +266,7 @@
 
   h4 {
     @include relative-font-size(1.125);
+    color: lighten($text-color, 20%);
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.25);
