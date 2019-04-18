@@ -313,3 +313,9 @@
     background-color: $grey-color;
   }
 }
+
+#search-input {
+  width: 100%;
+  font-size: $base-font-size * 1.6;
+  height: $base-font-size * 2;
+}
