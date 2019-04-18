@@ -300,3 +300,16 @@
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width:         calc(50% - (#{$spacing-unit} / 2));
 }
+
+.tag-wrapper a {
+  display: inline-block;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+
+  &:hover {
+    text-decoration: unset;
+    background-color: $grey-color;
+  }
+}
