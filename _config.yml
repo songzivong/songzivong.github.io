@@ -25,3 +25,6 @@ disqus:
 google_analytics: UA-138501173-1
 
 show_excerpts: true
+
+kramdown:
+  parse_block_html: true
