@@ -1,5 +1,10 @@
 GEM
   specs:
+    activesupport (4.2.10)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
@@ -12,6 +17,10 @@ GEM
     ffi (1.10.0)
     ffi (1.10.0-x64-mingw32)
     forwardable-extended (2.6.0)
+    gemoji (3.0.0)
+    html-pipeline (2.10.0)
+      activesupport (>= 2)
+      nokogiri (>= 1.4)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -36,6 +45,10 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jemoji (0.10.2)
+      gemoji (~> 3.0)
+      html-pipeline (~> 2.2)
+      jekyll (~> 3.0)
     kramdown (1.17.0)
     liquid (4.0.3)
     listen (3.1.5)
@@ -43,10 +56,14 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
+    mini_portile2 (2.4.0)
     minima (2.5.0)
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    minitest (5.11.3)
+    nokogiri (1.10.1-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
@@ -61,13 +78,19 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
   x64-mingw32
 
 DEPENDENCIES
+  jemoji
   minima
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.0.1
