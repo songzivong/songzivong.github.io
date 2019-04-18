@@ -62,6 +62,8 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
+    nokogiri (1.10.1)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.1-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
@@ -81,7 +83,6 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -90,7 +91,6 @@ PLATFORMS
 DEPENDENCIES
   jemoji
   minima
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.0.1

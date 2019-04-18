@@ -30,3 +30,5 @@ All commit objects live in `.git/objects/`, in a binary file format. Suppose the
 Creating a new branch in Git is just create a pointer to point to a commit object. It is very lightweight. This pointer is just a file to store a 40 digits long hexadecimal number, and the file is lived in `.git/refs/heads/<branch>`, where the `<branch>` is the name of the branch.
 
 Git uses a pointer named `HEAD` to refer to the current branch. This pointer lives in `.git/HEAD`. Suppose the current branch is `master`, then the content of this file would be `ref: refs/heads/master`.
+
+### 3.3. Branch Management
