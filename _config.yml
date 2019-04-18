@@ -14,6 +14,8 @@ minima:
 
 header_pages:
   - about.md
+  - categories.md
+  - tags.md
 
 disqus:
   shortname: songzivong
