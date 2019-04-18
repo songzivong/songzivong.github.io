@@ -4,6 +4,8 @@ url: https://songzivong.github.io
 author: Songzi Alexander Vong
 email: songzivong@gmail.com
 
+permalink: /:year/:month/:day/:title.html
+
 theme: minima
 
 minima:
@@ -16,6 +18,7 @@ header_pages:
   - about.md
   - categories.md
   - tags.md
+  - search.md
 
 disqus:
   shortname: songzivong
