@@ -6,7 +6,10 @@ email: songzivong@gmail.com
 
 permalink: /:year/:month/:day/:title.html
 
-theme: minima
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: songzivong/dark-minima
 
 minima:
   date_format: "%b %-d, %Y"
@@ -30,6 +33,3 @@ show_excerpts: true
 
 kramdown:
   parse_block_html: true
-
-plugins:
-  - jemoji
