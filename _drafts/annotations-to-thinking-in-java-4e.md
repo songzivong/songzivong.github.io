@@ -17,3 +17,8 @@ Well, my reading strategy is taking a compromise method, i.e. after having read 
 
 ## Everything Is an Object
 
+### You manipulate objects with references 
+
+> Are you manipulating the element directly, or are you dealing with some kind of indirect representation (a pointer in C or C++) that must be treated with a special syntax? 
+
+> All this is simplified in Java. You treat everything as an object, using a single consistent syntax. Although you treat everything as an object, the identifier you manipulate is actually a “reference” to an object.
