@@ -32,3 +32,21 @@ Creating a new branch in Git is just create a pointer to point to a commit objec
 Git uses a pointer named `HEAD` to refer to the current branch. This pointer lives in `.git/HEAD`. Suppose the current branch is `master`, then the content of this file would be `ref: refs/heads/master`.
 
 ### 3.3. Branch Management
+
+- `git branch`. Get a simple listing of your current branches:
+
+    ```
+    * drafts
+      master
+      theme-dark-minima
+      theme-minima
+    ```
+
+- `git branch -v`. See the last commit message on each branch:
+
+    ```
+    * drafts            9811ae8 Using my own created gem-based theme: dark-minima
+      master            9811ae8 Using my own created gem-based theme: dark-minima
+      theme-dark-minima 9811ae8 Using my own created gem-based theme: dark-minima
+      theme-minima      a784b7e update code formatting
+    ```
