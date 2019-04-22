@@ -25,7 +25,7 @@ header_pages:
   - search.md
 
 disqus:
-  shortname: songzivong
+  shortname: https-songzivong-github-io
 
 google_analytics: UA-138501173-1
 

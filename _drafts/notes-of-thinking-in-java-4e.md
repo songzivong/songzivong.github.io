@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Notes of Thinking in Java, 4th Edition"
-categories: "Notes"
+categories: Notes
 tags: java
 ---
 
